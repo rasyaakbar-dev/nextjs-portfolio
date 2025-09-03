@@ -17,7 +17,7 @@ export default function HomePage() {
 
       {/* Nama dan Tagline */}
       <h1 className="text-3xl font-bold mb-2">Budi Santoso</h1>
-      <p className="text-xl text-gray-600 mb-6">Web Developer | UI/UX Enthusiast</p>
+      <p className="text-xl text-gray-400 mb-6">Web Developer | UI/UX Enthusiast</p>
 
       {/* Tombol Navigasi */}
       <div className="flex flex-col sm:flex-row justify-center gap-4">
