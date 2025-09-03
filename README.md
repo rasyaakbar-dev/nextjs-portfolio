@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Rasya Akbar Nugraha
 
-## Getting Started
+Ini adalah proyek website portfolio pribadi yang dibuat menggunakan [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), dan TypeScript. Website ini menampilkan informasi tentang saya, daftar project, skill, serta kontak yang dapat dihubungi.
 
-First, run the development server:
+## Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home:** Halaman utama dengan foto profil, nama, dan navigasi cepat.
+- **Tentang Saya:** Informasi singkat mengenai latar belakang dan motivasi.
+- **Projects:** Daftar project yang pernah saya buat beserta deskripsi dan link.
+- **Skills:** Skill pemrograman yang saya kuasai beserta ikon.
+- **Contact:** Formulir kontak dan link sosial media.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cara Menjalankan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Jalankan server pengembangan:
+   ```bash
+   npm run dev
+   ```
+3. Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Struktur Folder
 
-## Learn More
+- `src/app/` : Halaman utama dan sub-halaman (about, projects, skills, contact)
+- `src/components/` : Komponen UI seperti Navbar, Footer, ProjectCard, SkillIcon
+- `src/lib/` : Data project dan tipe TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+## Teknologi yang Digunakan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+- React Icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
+Website ini dapat dengan mudah di-deploy ke [Vercel](https://vercel.com/) atau platform hosting lain yang mendukung Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Lisensi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proyek ini bersifat open source dan bebas digunakan untuk pembelajaran.
