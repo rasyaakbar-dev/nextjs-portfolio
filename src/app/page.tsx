@@ -7,7 +7,7 @@ export default function HomePage() {
       {/* Foto Profil */}
       <div className="mb-6 flex justify-center">
         <Image
-          src="/profile.jpg" // Pastikan file ada di /public
+          src="/portrait.jpg" // Pastikan file ada di /public
           alt="Foto Profil"
           width={150}
           height={150}
@@ -16,8 +16,8 @@ export default function HomePage() {
       </div>
 
       {/* Nama dan Tagline */}
-      <h1 className="text-3xl font-bold mb-2">Budi Santoso</h1>
-      <p className="text-xl text-gray-400 mb-6">Web Developer | UI/UX Enthusiast</p>
+      <h1 className="text-3xl font-bold mb-2">Rasya A.N.</h1>
+      <p className="text-xl text-gray-400 mb-6">App & Web Developer</p>
 
       {/* Tombol Navigasi */}
       <div className="flex flex-col sm:flex-row justify-center gap-4">

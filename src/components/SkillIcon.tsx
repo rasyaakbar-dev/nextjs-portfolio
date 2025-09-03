@@ -1,6 +1,7 @@
 'use client'; // Untuk dynamic import
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si'; // Gunakan ikon yang benar
+import { SiNextdotjs, SiTailwindcss, SiTypescript } from 'react-icons/si'; 
+import { TbBrandCSharp } from "react-icons/tb";
 
 // Peta nama ikon ke komponen ikon
 const iconMap: { [key: string]: React.ElementType } = {
@@ -11,6 +12,7 @@ const iconMap: { [key: string]: React.ElementType } = {
   nextjs: SiNextdotjs,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
+  csharp: TbBrandCSharp,
   // Tambahkan skill lain sesuai kebutuhan
 };
 

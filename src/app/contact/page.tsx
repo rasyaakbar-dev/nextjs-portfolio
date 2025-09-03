@@ -1,6 +1,6 @@
 'use client'; // Diperlukan karena menggunakan useState dan event handlers
 import { useState } from 'react';
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram } from 'react-icons/fa';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -29,7 +29,7 @@ export default function ContactPage() {
       {/* Form Kontak */}
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Nama</label>
+          <label htmlFor="name" className="block text-sm font-medium text-white mb-1">Nama</label>
           <input
             type="text"
             id="name"
@@ -41,7 +41,7 @@ export default function ContactPage() {
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+          <label htmlFor="email" className="block text-sm font-medium text-white mb-1">Email</label>
           <input
             type="email"
             id="email"
@@ -53,7 +53,7 @@ export default function ContactPage() {
           />
         </div>
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Pesan</label>
+          <label htmlFor="message" className="block text-sm font-medium text-white mb-1">Pesan</label>
           <textarea
             id="message"
             name="message"
@@ -76,17 +76,13 @@ export default function ContactPage() {
       <div className="mt-10 text-center">
         <h2 className="text-lg font-semibold mb-3">Temukan Saya di:</h2>
         <div className="flex justify-center space-x-6">
-          <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-500 transition-colors">
+          <a href="https://github.com/rasyaakbar-dev" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500 transition-colors">
             <FaGithub className="text-2xl" />
             <span className="sr-only">GitHub</span>
           </a>
-          <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-pink-500 transition-colors">
+          <a href="https://instagram.com/arysa._23" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500 transition-colors">
             <FaInstagram className="text-2xl" />
             <span className="sr-only">Instagram</span>
-          </a>
-          <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-700 transition-colors">
-            <FaLinkedin className="text-2xl" />
-            <span className="sr-only">LinkedIn</span>
           </a>
         </div>
       </div>

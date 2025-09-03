@@ -6,6 +6,9 @@ import Footer from '../components/Footer';
 export const metadata: Metadata = {
   title: 'Portfolio Saya',
   description: 'Website portfolio pribadi',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
