@@ -4,10 +4,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Portfolio Saya',
+  title: 'Portfolio',
   description: 'Website portfolio pribadi',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icons.ico',
   },
 };
 
@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-800">
-        <div className="flex flex-col min-h-screen">
+      <body>
+        <div className="flex flex-col min-w-screen min-h-screen">
           <Navbar />
-          <main className="flex-grow container mx-auto px-4 py-8">
+          <main className="flex-grow container mx-auto px-2 py-8">
             {children}
           </main>
           <Footer />
