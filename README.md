@@ -1,4 +1,4 @@
-# Portfolio Rasya Akbar Nugraha
+# Portfolio
 
 Ini adalah proyek website portfolio pribadi yang dibuat menggunakan [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), dan TypeScript. Website ini menampilkan informasi tentang saya, daftar project, skill, serta kontak yang dapat dihubungi.
 
