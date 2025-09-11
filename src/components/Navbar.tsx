@@ -5,10 +5,10 @@ export default function Navbar() {
   return (
     <nav className="bg-neutral-800 py-3">
       <div className="flexbox m-1 px-4 flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold text-blue-600">
+        <Link href="/" className="text-xl font-bold text-blue-600 hover:text-white transition-colors">
           Portfolio
         </Link>
-        <ul className="flex space-x-5 text-white hover:text-neutral-400 transition-colors">
+        <ul className="flex space-x-5 text-white hover:text-neutral-200 transition-colors">
           <li><Link href="/" className="hover:text-blue-500 transition-colors">Home</Link></li>
           <li><Link href="/about" className="hover:text-blue-500 transition-colors">About</Link></li>
           <li><Link href="/projects" className="hover:text-blue-500 transition-colors">Projects</Link></li>

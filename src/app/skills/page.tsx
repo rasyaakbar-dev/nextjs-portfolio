@@ -19,7 +19,7 @@ export default function SkillsPage() {
       <h1 className="text-2xl font-bold mb-6 text-center">Kemampuan Saya</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {skillsData.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center p-4 bg-neutral-900 rounded-lg shadow-sm border hover:shadow-md transition-shadow duration-300">
+          <div key={skill.name} className="flex flex-col items-center p-4 bg-neutral-900 rounded-lg shadow-sm border">
             <SkillIcon iconName={skill.iconName} />
             <span className="mt-2 text-sm font-medium">{skill.name}</span>
           </div>

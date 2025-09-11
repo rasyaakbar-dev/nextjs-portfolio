@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Portfolio',
   description: 'Website portfolio pribadi',
   icons: {
-    icon: '/icons.ico',
+    icon: 'favicon.ico',
   },
 };
 
