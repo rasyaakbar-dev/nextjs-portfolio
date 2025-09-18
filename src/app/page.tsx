@@ -6,20 +6,20 @@ export default function HomePage() {
     <div className="text-center">
       {/* Foto Profil */}
       <div className="mb-6 flex justify-center">
-        <Image
-          src="/portrait.jpg" // Pastikan file ada di /public
-          alt="Foto Profil"
-          width={150}
-          height={150}
-          className="rounded-full border-4 border-white shadow-lg"
-        />
+        <div className="aspect-square w-45 overflow-hidden rounded-full border-4 border-blue-500 bg-[#1e293b] flex items-center justify-center">
+          <Image
+            src="/portrait.jpg"
+            alt="Foto Profil"
+            width={150}
+            height={150}
+            className="object-cover w-full h-full"
+          />
+        </div>
       </div>
 
-      {/* Nama dan Tagline */}
       <h1 className="text-3xl font-bold mb-2">Rasya A.N.</h1>
-      <p className="text-xl text-gray-400 mb-6">App & Web Developer</p>
+      <p className="text-xl sm:text-2xl text-gray-400 mb-6">App & Web Developer</p>
 
-      {/* Tombol Navigasi */}
       <div className="flex flex-col sm:flex-row justify-center gap-4">
         <Link href="/about" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded transition duration-300 ease-in-out transform hover:-translate-y-1">
           Tentang Saya

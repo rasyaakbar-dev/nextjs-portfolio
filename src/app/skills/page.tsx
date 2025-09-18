@@ -1,7 +1,6 @@
 import SkillIcon from '../../components/SkillIcon';
 import { Skill } from '../../lib/types';
 
-// Data skill langsung di halaman ini untuk kesederhanaan
 const skillsData: Skill[] = [
   { name: 'HTML', iconName: 'html' },
   { name: 'CSS', iconName: 'css' },
@@ -17,7 +16,7 @@ export default function SkillsPage() {
   return (
     <div>
       <h1 className="text-2xl font-bold mb-6 text-center">Kemampuan Saya</h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 sm:grid-cols-3 md:grid-cols-4 gap-4">
         {skillsData.map((skill) => (
           <div key={skill.name} className="flex flex-col items-center p-4 bg-neutral-900 rounded-lg shadow-sm border">
             <SkillIcon iconName={skill.iconName} />
